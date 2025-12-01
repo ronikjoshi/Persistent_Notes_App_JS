@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Persistent Product Wishlist</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Product Wishlist</h1>
+
+    <form id="productForm">
+      <input type="text" id="nameInput" placeholder="Product Name" required>
+      <input type="number" id="priceInput" placeholder="Price" required>
+      <input type="text" id="imageInput" placeholder="Image URL" required>
+      <button type="submit">Add to Wishlist</button>
+    </form>
+
+    <div id="wishlistContainer"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
